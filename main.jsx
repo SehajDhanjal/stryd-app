@@ -1,14 +1,3 @@
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#000000" />
-    <title>STRYD — AI Fitness Coach</title>
-  </head>
-  <body style="margin:0;padding:0;background:#000;">
-    <div id="root"></div>
-    <script type="module" src="/main.jsx"></script>
-  </body>
-</html>
+export default function App() {
+  return <div style={{color:"white",background:"black",minHeight:"100vh",display:"flex",alignItems:"center",justifyContent:"center",fontFamily:"sans-serif",fontSize:24}}>STRYD Loading...</div>
+}
