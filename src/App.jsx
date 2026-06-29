@@ -216,7 +216,7 @@ function GateModal({onClose,onUpgrade}) {
             <span style={{fontSize:14,color:"rgba(255,255,255,0.7)"}}>{f}</span>
           </div>
         ))}
-        <button onClick={onUpgrade} style={{width:"100%",marginTop:22,padding:"17px",borderRadius:16,border:"none",background:"#fff",color:"#000",fontWeight:700,fontSize:16,cursor:"pointer",fontFamily:F}}>Upgrade — $14.99 / month</button>
+        <button onClick={onUpgrade} style={{width:"100%",marginTop:22,padding:"17px",borderRadius:16,border:"none",background:"#fff",color:"#000",fontWeight:700,fontSize:16,cursor:"pointer",fontFamily:F}>Upgrade — $9.99 / month / month</button>
         <div style={{textAlign:"center",marginTop:12,fontSize:12,color:"rgba(255,255,255,0.22)"}}>Secured by Stripe · Cancel anytime</div>
       </div>
     </div>
